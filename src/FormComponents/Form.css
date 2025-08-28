@@ -1,0 +1,29 @@
+.form-border{
+    margin-top: 40px;
+    border: solid 1px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 0px;
+
+}
+
+p {
+    margin-top: 4px;
+}
+
+input{
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
