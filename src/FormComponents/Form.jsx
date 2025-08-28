@@ -50,6 +50,7 @@ function Form() {
                 <input
                     type="text"
                     name='expense' 
+                    required
                     placeholder='Eneter expense' 
                     value={formData.expense} 
                     onChange={handleChange}
@@ -57,6 +58,7 @@ function Form() {
                 <input 
                     type="text"
                     name='description' 
+                    required
                     placeholder='Enter expense description'
                     value={formData.description}
                     onChange={handleChange}
@@ -64,6 +66,7 @@ function Form() {
                 <input 
                     type="text" 
                     name='category'
+                    required
                     placeholder='Enter expense category'
                     value={formData.category}
                     onChange={handleChange}
@@ -71,6 +74,7 @@ function Form() {
                 <input 
                     type="number"
                     name='amount'
+                    required
                     placeholder='Enter amount'
                     value={formData.amount}
                     onChange={handleChange}
@@ -78,6 +82,7 @@ function Form() {
                 <input 
                     type="date"
                     name='date'
+                    required
                     value={formData.date}
                     onChange={handleChange}
                 />
