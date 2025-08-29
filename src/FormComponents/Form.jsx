@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Form.css'
 
 
-function Form() {
+function Form( {addExpense} ) {
     const [formData, setFormData] = useState({
         expense: "",
         description: "",
@@ -30,7 +30,7 @@ function Form() {
             date: new Date(formData.date)
         };
 
-        console.log(newExpense);
+        addExpense(newExpense);
 
         // reset fomr
         setFormData({

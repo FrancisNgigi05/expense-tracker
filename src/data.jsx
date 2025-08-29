@@ -1,5 +1,6 @@
 const expenses = [
   {
+    id: 1,
     expense: "Ugali matumbo",
     description: "Wednesday's Lunch",
     category: "Food",
@@ -7,6 +8,7 @@ const expenses = [
     date: new Date("2020-04-11")
   },
   {
+    id: 2,
     expense: "Matatu fare",
     description: "Commute to town",
     category: "Transport",
@@ -14,6 +16,7 @@ const expenses = [
     date: new Date("2020-04-12")
   },
   {
+    id: 3,
     expense: "Airtime",
     description: "Safaricom top-up",
     category: "Utilities",
@@ -21,6 +24,7 @@ const expenses = [
     date: new Date("2020-04-13")
   },
   {
+    id: 4,
     expense: "Java coffee",
     description: "Afternoon coffee with friends",
     category: "Food",
@@ -28,6 +32,7 @@ const expenses = [
     date: new Date("2020-04-14")
   },
   {
+    id: 5,
     expense: "Gym fee",
     description: "Monthly membership",
     category: "Health",
@@ -35,6 +40,7 @@ const expenses = [
     date: new Date("2020-04-15")
   },
   {
+    id: 6,
     expense: "Netflix subscription",
     description: "Monthly payment",
     category: "Entertainment",
